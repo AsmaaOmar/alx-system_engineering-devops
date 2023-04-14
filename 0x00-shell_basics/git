@@ -5,6 +5,6 @@ echo "input commit msg"
 read var 
 
 git add .
-git commit -m "&{var}"
+git commit -m "${var}"
 git push
 
